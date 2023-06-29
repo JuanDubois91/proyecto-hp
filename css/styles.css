@@ -47,7 +47,6 @@ body {
 
 .header {
   width: 100%;
-  height: 100vh;
   background-image: url('../assets/img/portada_harryPoter.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -109,12 +108,10 @@ body {
 /* Historia */
 
 .section-history {
-  /* border: 1px solid red; */
   margin: 50px;
 }
 
 .history-title {
-  /* border: 1px solid purple; */
   font-family: var(--font-harry-potter);
   color: var(--color-gold);
   font-size: 4rem;
@@ -123,13 +120,11 @@ body {
 }
 
 .history-paragraph {
-  /* border: 1px solid orange; */
   color: var(--color-white);
   text-align: justify;
 }
 
 .synopsis-title {
-  /* border: 1px solid orange; */
   color: var(--color-gold);
   font-family: var(--font-harry-potter);
   text-align: center;
@@ -137,13 +132,11 @@ body {
 }
 
 .synopsis-paragraph {
-  /* border: 1px solid orange; */
   color: var(--color-white);
   text-align: justify;
 }
 
 .universe-title {
-  /* border: 1px solid orange; */
   color: var(--color-gold);
   font-family: var(--font-harry-potter);
   text-align: center;
@@ -151,7 +144,6 @@ body {
 }
 
 .universe-paragraph {
-  /* border: 1px solid orange; */
   color: var(--color-white);
   text-align: justify;
 }
