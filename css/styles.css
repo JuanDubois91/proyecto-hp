@@ -8,21 +8,25 @@
 }
 
 :root {
-  --backgroud-color: hsl(216, 12%, 8%);
+  --background-color-body: hsl(216, 12%, 8%);
+  --background-color-cards: hsl(213, 19%, 18%);
   --color-gold: hsl(43, 74%, 49%);
   --color-white: hsl(0, 0%, 100%);
   --color-lightgrey: hsl(0, 0%, 83%);
+  --font-harry-potter: 'Harry Potter', sans-serif;
+  --font-general: 'Ysabeau Infant', sans-serif;
 }
 
 body {
-  font-family: 'Ysabeau Infant', sans-serif;
+  font-family: var(--font-general);
   font-weight: 400;
+  background-color: var(--background-color-body);
 }
 
 /* Nav */
 
 .navbar-brand {
-  font-family: 'Harry Potter', sans-serif;
+  font-family: var(--font-harry-potter);
   color: var(--color-gold);
 }
 
@@ -103,3 +107,53 @@ body {
 }
 
 /* Historia */
+
+.section-history {
+  /* border: 1px solid red; */
+  margin: 50px;
+}
+
+.history-title {
+  /* border: 1px solid purple; */
+  font-family: var(--font-harry-potter);
+  color: var(--color-gold);
+  font-size: 4rem;
+  text-align: center;
+  padding: 10px;
+}
+
+.history-paragraph {
+  /* border: 1px solid orange; */
+  color: var(--color-white);
+  text-align: justify;
+}
+
+.synopsis-title {
+  /* border: 1px solid orange; */
+  color: var(--color-gold);
+  font-family: var(--font-harry-potter);
+  text-align: center;
+  margin-top: 40px;
+}
+
+.synopsis-paragraph {
+  /* border: 1px solid orange; */
+  color: var(--color-white);
+  text-align: justify;
+}
+
+.universe-title {
+  /* border: 1px solid orange; */
+  color: var(--color-gold);
+  font-family: var(--font-harry-potter);
+  text-align: center;
+  margin-top: 40px;
+}
+
+.universe-paragraph {
+  /* border: 1px solid orange; */
+  color: var(--color-white);
+  text-align: justify;
+}
+
+/* Characters */
