@@ -108,44 +108,46 @@ body {
 /* Historia */
 
 .section-history {
-  margin: 50px;
+  margin: 100px 20px 0;
 }
 
-.history-title {
+.section-title {
   font-family: var(--font-harry-potter);
   color: var(--color-gold);
   font-size: 4rem;
   text-align: center;
-  padding: 10px;
+  margin-bottom: 40px;
 }
 
-.history-paragraph {
+.section-history-paragraph {
   color: var(--color-white);
   text-align: justify;
 }
 
-.synopsis-title {
+.section-history-subtitle {
   color: var(--color-gold);
   font-family: var(--font-harry-potter);
   text-align: center;
   margin-top: 40px;
+  margin-bottom: 20px;
 }
 
-.synopsis-paragraph {
+/* Personajes */
+
+.section-characters {
+  margin: 100px 20px 0;
+}
+
+.card {
+  border: none;
+}
+
+.card-body {
+  background-color: var(--background-color-cards);
   color: var(--color-white);
-  text-align: justify;
 }
 
-.universe-title {
+.text_small {
   color: var(--color-gold);
-  font-family: var(--font-harry-potter);
-  text-align: center;
-  margin-top: 40px;
+  font-weight: 700;
 }
-
-.universe-paragraph {
-  color: var(--color-white);
-  text-align: justify;
-}
-
-/* Characters */

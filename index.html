@@ -8,6 +8,8 @@
     <title>Harry Potter | Inicio</title>
   </head>
   <body>
+
+  
     <header class="header" id="home">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -33,7 +35,7 @@
                 <a class="nav-link" href="#history">Historia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#characters">Personajes</a>
+                <a class="nav-link" href="#personajes">Personajes</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Libros</a>
@@ -63,14 +65,15 @@
         </p>
       </div>
     </header>
+  
 
     <main>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col">
-            <section class="section-history" id="history">
-              <h2 class="history-title">Historia</h2>
-              <p class="history-paragraph">
+      <section class="section-history" id="history">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="section-title">Historia</h2>
+              <p class="section-history-paragraph">
                 Harry Potter (también abreviado HP) es una heptalogía de novelas
                 fantásticas escrita por la autora británica J. K. Rowling, en la
                 que se describen las aventuras del joven aprendiz de mago Harry
@@ -105,8 +108,8 @@
                 resultando la franquicia más exitosa de la historia del cine.
               </p>
 
-              <h3 class="synopsis-title">Sinopsis</h3>
-              <p class="synopsis-paragraph">
+              <h3 class="section-history-subtitle">Sinopsis</h3>
+              <p class="section-history-paragraph">
                 La historia comienza con la celebración del mundo mágico.
                 Durante muchos años, había sido aterrorizado por el malvado mago
                 Lord Voldemort. La noche anterior, el 31 de octubre, Voldemort
@@ -142,8 +145,8 @@
                 Hogwarts para terminar su formación mágica.
               </p>
 
-              <h3 class="universe-title">Universo</h3>
-              <p class="universe-paragraph">
+              <h3 class="section-history-subtitle">Universo</h3>
+              <p class="section-history-paragraph">
                 La enorme popularidad de los libros y películas de Harry Potter
                 llevó a las autoridades de la estación de Kings Cross a colocar
                 un cartel que señala el Andén 9¾, lugar que según la trama de
@@ -176,10 +179,29 @@
                 adaptadas por la autora como los dementores o los elfos
                 domésticos.
               </p>
-            </section>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+
+      <section class="section-characters" id="personajes">
+        <h2 class="section-title">Personajes principales</h2>
+        <div class="container">
+          <div class="row  d-flex justify-content-center" id="characters">
+            <!-- <div class="col">
+              <div class="card" style="width: 18rem">
+                <img src="" class="card-img-top" alt="" />
+                <div class="card-body">
+                  <p class="card-text"></p>
+                  <p class="card-text">
+                    <small class="text_small"></small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </section>
     </main>
 
     <script src="js/bootstrap.bundle.min.js"></script>
